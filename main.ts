@@ -6,10 +6,10 @@ class MyFirstProgram {
         console.log(argArray);
     }
     runFirst(callback: Function) {
-        console.log('this method rungs first...');
+        console.log('this method rungs first!...');
     }
     runLast() {
-        console.log('this method runs last...');
+        console.log('this method runs last!');
     }
 }
 const newInstance = new MyFirstProgram("a", "b", "c");
